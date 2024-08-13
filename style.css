@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  flex: 0.5;
+  height: 80vh;
+  border: 2px solid white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30%;
+}
+
+.box0 {
+  background-image: url("https://images.pexels.com/photos/745081/pexels-photo-745081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.box1 {
+  background-image: url("https://images.pexels.com/photos/26832624/pexels-photo-26832624/free-photo-of-cala-of-mallorca.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.box2 {
+  background-image: url("https://images.pexels.com/photos/27224216/pexels-photo-27224216/free-photo-of-agua-pura.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.box3 {
+  background-image: url("https://images.pexels.com/photos/20427308/pexels-photo-20427308/free-photo-of-entrance-of-hotel-le-bellevue-in-biarritza.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.active {
+  flex: 5;
+}
